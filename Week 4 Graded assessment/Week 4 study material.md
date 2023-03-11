@@ -44,12 +44,14 @@ Coding Skills
 
 **Skill 1:** Using **string** methods
 
+
 - Separate numerical values from text values in a string using **.split()**. 
 - Iterate over the elements in a string.
 - Test if the element contains letters with **.isalpha()**.
 - Assign the elements of the split string to new variables.
 - Trim any extra white space using **.strip()**.
 - Format a string using **.format()** and **{ }** variable placeholders.
+- ```
 - def sales\_prices(item\_and\_price):
 - `    `# Initialize variables "item" and "price" as strings
 - `    `item = ""
@@ -80,8 +82,8 @@ Coding Skills
 
 - # Call to the function 
 - print(sales\_prices("Winter fleece jackets 49.99 jhjb 787"))
-- # Should print "Winter fleece jackets are on sale for $49.99"
-- Use the len() function to measure a string.
+- # Should print "Winter fleece jackets are on sale for $49.99"```
+- ```Use the len() function to measure a string.
 - # This function accepts a string variable "data\_field".  
 - def count\_words(data\_field):
 
@@ -98,11 +100,11 @@ Coding Skills
 
 - # Call to the function
 - count\_words("Catalog item 3523: Organic raw pumpkin seeds in shell")
-- # Should print 9
+- # Should print 9```
 ## Skill 2: Using list methods
 - Reverse the order of a list using the **.reverse()** method.
 - Combine two lists using the **.extend()** method.
-- # This function accepts two variables, each containing a list of years.
+- ```# This function accepts two variables, each containing a list of years.
 - # A current "recent\_first" list contains [2022, 2018, 2011, 2006].
 - # An older "recent\_last" list contains [1989, 1992, 1997, 2001].
 - # The lists need to be combined with the years in chronological order.
@@ -129,11 +131,11 @@ Coding Skills
 - # Call the record\_profit\_years() function and pass the two lists as 
 - # parameters. 
 - print(record\_profit\_years(recent\_first, recent\_last))
-- # Should print [1989, 1992, 1997, 2001, 2006, 2011, 2018, 2022]
+- # Should print [1989, 1992, 1997, 2001, 2006, 2011, 2018, 2022]```
 ## Skill 3: Using a list comprehension 
 - Use a list comprehension [ ] as a shortcut for creating a new list from a range.
 - Include a calculation with a **for** loop **in** a **range** with 2 parameters (lower, upper+1). 
-- # The function accepts two parameters: a start year and an end year.
+- ```# The function accepts two parameters: a start year and an end year.
 - def list\_years(start, end):
 
 - `    `# It returns a list comprehension that creates a list of years in a for
@@ -143,11 +145,11 @@ Coding Skills
 
 - # Call the years() function with two parameters.
 - print(list\_years(1972, 1975)) 
-- # Should print [1972, 1973, 1974, 1975]
+- # Should print [1972, 1973, 1974, 1975]```
 
 Use a list comprehension [ ] with a **for** loop and an **if** condition. # The function accepts two variable integers through the parameters and
 
-# returns all odd numbers between x and y-1.
+```# returns all odd numbers between x and y-1.
 
 def odd\_numbers(x, y):
 
@@ -173,11 +175,11 @@ def odd\_numbers(x, y):
 
 print(odd\_numbers(5, 15)) 
 
-# Should print [5, 7, 9, 11, 13]
+# Should print [5, 7, 9, 11, 13]```
 ## Skill 4: Using dictionary methods
 - Iterate through the keys and values of a dictionary.
 - Return the keys and values in a formatted string using the .format() function.
-- # The network() function accepts a dictionary "servers" as a parameter.
+- ```# The network() function accepts a dictionary "servers" as a parameter.
 - def network(servers):
 
 - `    `# A string variable is initialized to hold the "result". 
@@ -202,12 +204,12 @@ print(odd\_numbers(5, 15)) 
 - # The IP address of the Domain Name Server server is 8.8.8.8
 - # The IP address of the Gateway Server server is 192.168.1.1
 - # The IP address of the Print Server server is 192.168.1.33
-- # The IP address of the Mail Server server is 192.168.1.190
+- # The IP address of the Mail Server server is 192.168.1.190```
 
 - Create a copy of a dictionary.
 - Iterate through the values of the new dictionary.
 - Change each value in the new dictionary, while keeping the same keys.
-- # The scores() function accepts a dictionary "game\_scores" as a parameter.
+- ```# The scores() function accepts a dictionary "game\_scores" as a parameter.
 - def reset\_scores(game\_scores):
 
 - `    `# The .copy() dictionary method is used to create a new copy of the "game\_scores".
@@ -229,7 +231,7 @@ print(odd\_numbers(5, 15)) 
 - # Call the "reset\_scores" function with the "game1\_scores" dictionary. 
 - print(reset\_scores(game1\_scores))
 - # Should print {'Arshi': 0, 'Catalina': 0, 'Diego': 0}
-# Reminder: Correct syntax is critical
+# Reminder: Correct syntax is critical```
 Using precise syntax is critical when writing code in any programming language, including Python. Even a small typo can cause a syntax error and the automated Python-coded quiz grader will mark your code as incorrect. This reflects real life coding errors in the sense that a single error in spelling, case, punctuation, etc. can cause your code to fail. Coding problems caused by imprecise syntax will always be an issue whether you are learning a programming language or you are using programming skills on the job. So, it is critical to start the habit of being precise in your code now. 
 
 No credit will be given if there are any coding errors on the automated graded quizzes - including minor errors. Fortunately, you have 3 optional retake opportunities on the graded quizzes in this course. Additionally, you have unlimited retakes on practice quizzes and can review the videos and readings as many times as you need to master the concepts in this course.  
